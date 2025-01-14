@@ -36,10 +36,10 @@ npm install
 Run the following command to start the app locally:
 
 ```bash
-npm start
+npm run dev
 ```
 
-This will run the app in development mode and you can open it in your browser at **http://localhost:3000**.
+This will run the app in development mode and you can open it in your browser at **http://localhost:5173**.
 
 ## Features
 
@@ -66,7 +66,7 @@ There is a checkbox that allows you to toggle the visibility of completed todos.
 ## Folder Structure
 
 ```
-my-todo-app/
+doIt/
 ├── public/                # Public assets like index.html, images
 ├── src/                   # React components and other source code
 │   ├── components/        # Components like Navbar, TodoList, etc.
